@@ -6,4 +6,7 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println (hobbit/symmetrize-body-parts hobbit/asym-hobbit-body-parts)))
+  (println (hobbit/hit hobbit/asym-hobbit-body-parts))
+  (println (hobbit/hit hobbit/asym-hobbit-body-parts))
+  (println (hobbit/hit hobbit/asym-hobbit-body-parts))
+)
