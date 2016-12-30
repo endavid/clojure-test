@@ -6,4 +6,4 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println (str "Hello " hobbit/main-hobbit)))
+  (println (hobbit/symmetrize-body-parts hobbit/asym-hobbit-body-parts)))
